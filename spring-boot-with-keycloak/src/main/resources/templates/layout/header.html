@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+<link th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}"
+	href="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css"
+	rel="stylesheet" media="screen" />
+<link rel="stylesheet" th:href="@{/css/style.css}"
+	href="../../static/css/style.css" />
+</head>
+<body>
+
+	<div class="container">
+		<div th:fragment="header">
+			<div class="jumbotron">
+				<div class="row text-center">
+					<h1>
+						Hello, <span th:text="${username}">--name--</span>.
+					</h1>
+					<div class="row">
+						<h2>Spring MVC Crud Application</h2>
+
+						<p>
+							<a href="/logout">Logout</a>
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>

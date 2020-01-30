@@ -1,0 +1,33 @@
+
+
+username, password, firstname, lastname, email, address, phone
+
+
+CREATE TABLE test.info (
+	signID int(10)AUTO_INCREMENT PRIMARY KEY,
+	username, 
+	password, 
+	firstname, 
+	lastname, 
+	email, 
+	address, 
+	phone
+	
+    email varchar(255),
+    status varchar(255),
+    date varchar(255),
+    activationCode varchar(255) 
+);
+
+
+
+
+<-----singup table query------->
+
+CREATE TABLE test.singup (
+	signID int(10)AUTO_INCREMENT PRIMARY KEY,
+    email varchar(255),
+    status varchar(255),
+    date varchar(255),
+    activationCode varchar(255) 
+);
