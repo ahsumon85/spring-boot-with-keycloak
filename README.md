@@ -21,13 +21,14 @@ Client name `keycloak-login`
 Valids redirect URL `http://localhost:8089`
 
 ### Creating a Role and a User
-
 Add role > role name `user`
 Add user > usernane `user` > Credentials(password) > `user` 
 User role mapping > realm role `user` to assigned role `user`
 
-### spring-boot-with-keycloak run
+### import spring-boot-with-keycloak project
+1. `$ mvn clean install`
+2. `$ mvn spring-boot:run`
+3. Or spring-boot-with-keycloak project import in IDE
 
-`$ mvn clean install`
-`$ mvn spring-boot:run`
-or spring-boot-with-keycloak project import in IDE and go to browser redirect URL `http://localhost:8089`
+### Run spring-boot-with-keycloak project
+ Go to browser and enter on browser URL `http://localhost:8089`
