@@ -10,7 +10,7 @@ Once we've downloaded the Standalone server distribution, we can unzip and start
 1. unzip keycloak-8.0.1.Final.zip
 2. cd keycloak-8.0.1.Final/bin
 3. ./standalone.sh -Djboss.socket.binding.port-offset=100
-After running ./standalone.sh, Keycloak will be starting its services. Once we see a line containing Keycloak 3.3.0.Final (WildFly Core 3.0.1.Final) started, we'll know its start-up is complete.
+After running ./standalone.sh, Keycloak will be starting its services. Once we see a line containing keycloak-8.0.1.Final (WildFly Core 8.0.1.Final) started, we'll know its start-up is complete.
 ```
 Open a browser and visit `http://localhost:8180`. We'll be redirected to `localhost:8180/auth/admin` to create an administrative login:
 ### Creating a Realm
