@@ -3,7 +3,7 @@
 ### Downloading and Installing Keycloak:
 There're several distributions to choose from `https://www.keycloak.org/downloads.html`.
 However, in this tutorial, we'll be using the standalone version.
-Download Keycloak-3.3.0.Final Standalone server distribution from the official source.
+Download `Keycloak-3.3.0.Final` Standalone server distribution from the official source.
 
 Once we've downloaded the Standalone server distribution, we can unzip and start Keycloak from the terminal:
 ```
